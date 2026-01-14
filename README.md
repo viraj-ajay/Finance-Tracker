@@ -2,9 +2,6 @@
 
 A robust, containerized investment portfolio manager that allows users to track stock holdings in real-time. The application calculates current portfolio value, total investment, and profit/loss percentages using live market data from Alpha Vantage.
 
-![Dashboard Preview](./dashboard.png)
-*(Note: Upload a screenshot named `dashboard.png` to the root folder to see it here)*
-
 ## Features
 
 * **Real-Time Market Data:** Integrates with **Alpha Vantage API** to fetch live stock prices (e.g., MSFT, AAPL).
