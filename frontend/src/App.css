@@ -1,0 +1,102 @@
+/* src/App.css - Updated for Visibility */
+body {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333; /* Default text color */
+}
+
+.login-container, .dashboard {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 400px;
+  color: #333; /* Force text inside card to be dark */
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: #222;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+button:hover { background-color: #0056b3; }
+
+.summary-card {
+  text-align: center;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+}
+
+.big-number { 
+  font-size: 2.5rem; 
+  margin: 10px 0; 
+  font-weight: 800; 
+  color: #000;
+}
+
+.profit { color: #28a745; font-weight: bold; }
+.loss { color: #dc3545; font-weight: bold; }
+
+/* Table Styling */
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 2px solid #eee;
+  color: #666;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+td { 
+  padding: 12px 8px; 
+  border-bottom: 1px solid #f0f0f0; 
+  color: #333; /* Ensure table text is visible */
+}
